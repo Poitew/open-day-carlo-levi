@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-
+    overflow-y: hidden;
     margin: 0;
 }
 
@@ -21,27 +21,58 @@ header h1 {
 }
 
 img {
-    transform: scale(-1, 1);
     margin-left: 65%;
     display: flex;
     height: 500px;
+    box-shadow: 0px 0px 13px 4px rgb(255, 45, 45);
 }
 
 input {
     margin-top: 12%;
-    box-shadow: 0px 0px 22px 7px rgba(45,255,196,0.91);
+    box-shadow: 0px 0px 13px 4px rgba(45,255,196,1);
+    border-radius: 5px;
 }
 
 button {
     height: auto;
     width: auto;
-    box-shadow: 0px 0px 22px 7px rgba(45,255,196,0.91);
+    box-shadow: 0px 0px 13px 4px rgba(45,255,196,1);
+    border-radius: 5px;
 }
 
-#parola {
+#trattini {
     margin-top: 0;
     float: left;
     font-size: 3.5rem;
     letter-spacing: 30px;
+    margin-left: 9%;
+}
+
+.letterInput {
+    float: left;
+    margin-top: 10%;
     margin-left: 10%;
+    position: absolute;
+    z-index: 100;
+}
+
+.div-lettereSbagliate{
+    float: left;
+    margin-top: 16%;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 100;
+}
+
+#lettereSbagliate {
+    margin-left: 10%;
+}
+
+#crediti {
+    float: right;
+    margin-right: 5%;
+}
+
+#crediti span {
+    margin-left: 20px;
 }
